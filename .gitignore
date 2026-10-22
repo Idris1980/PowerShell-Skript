@@ -1,0 +1,29 @@
+# Kompilerade skript och binärer
+*.exe
+*.dll
+*.msi
+
+# Certifikat och nycklar
+*.pfx
+*.cer
+*.pem
+*.key
+
+# Loggar och rapporter som skripten skapar
+*.log
+VM-Build-Log_*.txt
+VM-Rapport_*.html
+
+# Riktig användardata – lägg bara fiktiva exempel i Exempeldata/
+*.csv
+!Exempeldata/*.csv
+
+# Diskar och avbilder
+*.vhd
+*.vhdx
+*.iso
+
+# Editor/OS
+.vscode/
+Thumbs.db
+desktop.ini
